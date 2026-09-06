@@ -1,0 +1,18 @@
+[project]
+name = "apis-core-sec-6"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Roberto Rodrigues",email = "dba.roberto@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+]
+
+[tool.poetry]
+packages = [{include = "apis_core_sec_6", from = "src"}]
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
